@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>워크숍 톡톡(익명이니 안심하세요!)</title>
+  <title>2026년 인사지원부 회식톡톡</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <meta name="color-scheme" content="light dark" />
   <style>
@@ -21,7 +21,7 @@
   <div class="max-w-6xl mx-auto p-6">
     <header class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-6">
       <div>
-        <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">워크숍 톡톡(익명이니 안심하세요!)</h1>
+        <h1 class="text-2xl sm:text-3xl font-bold tracking-tight">🎊인사부 회식톡톡🎊 (익명이니 안심하세요!)</h1>
         <p class="text-sm text-gray-600 dark:text-gray-400 mt-1">닉네임으로만 제출 · 누군가 제출하면 화면에 포스트잇처럼 바로 붙어요.<span id="realtimeHint" class="ml-2"></span></p>
       </div>
       <div class="flex items-center gap-2">
@@ -29,17 +29,20 @@
         <button id="clearBtn" class="px-3 py-1.5 rounded-xl border border-red-300 text-red-600 text-sm hover:bg-red-50 dark:hover:bg-red-900/30">모두 지우기</button>
       </div>
     </header>
-
+    
+    <div class="w-full max-w-md mx-auto">
+      <img src="IMG_6900.jpeg" class="w-full h-auto rounded-xl">
+    </div>
     <section class="bg-white/90 dark:bg-stone-800/80 rounded-2xl shadow-sm ring-1 ring-gray-200 dark:ring-stone-700 p-5 mb-6">
       <form id="form" class="grid sm:grid-cols-[220px_1fr_auto] gap-3 items-start" novalidate>
         <div>
           <label for="nick" class="block text-sm font-medium mb-1">닉네임</label>
-          <input id="nick" name="nick" type="text" required maxlength="24" class="w-full rounded-xl border-gray-300 dark:border-stone-600 bg-white dark:bg-stone-900 px-3 py-2" placeholder="예: 파란고래" />
+          <input id="nick" name="nick" type="text" required maxlength="24" class="w-full rounded-xl border-gray-300 dark:border-stone-600 bg-white dark:bg-stone-900 px-3 py-2" placeholder="예: 소금빵러버" />
         </div>
         <div class="sm:col-span-1">
           <label for="text" class="block text-sm font-medium mb-1">의견</label>
           <textarea id="text" name="text" rows="3" required maxlength="800" class="w-full rounded-xl border-gray-300 dark:border-stone-600 bg-white dark:bg-stone-900 px-3 py-2" placeholder="자유롭게 적어주세요 (800자 이내)"></textarea>
-          <p class="mt-1 text-xs text-gray-500">민감정보는 쓰지 마세요. 제출 즉시 게시판에 표시됩니다.</p>
+          <p class="mt-1 text-xs text-gray-500">민감정보나 나쁜말은 금지! 제출 즉시 게시판에 표시됩니다.</p>
           <p class="mt-1 text-xs text-green-600 dark:text-green-400">걱정 마세요! 익명 의견은 어디에도 저장되지 않고, 이 자리에서만 보입니다.</p>
         </div>
         <div class="flex gap-2 sm:self-end">
@@ -55,7 +58,7 @@
     </section>
 
     <footer class="mt-10 text-center text-xs text-gray-500 dark:text-stone-400">
-      <p>© <span id="year"></span> 인사지원부 노사문화팀</p>
+      <p>© <span id="year"></span> 노사문화팀이 즐거운 회식을 위해 함께 제작하였습니다 🫡</p>
     </footer>
 
     <details id="test-panel" class="mt-6 text-xs text-gray-600 dark:text-gray-400" hidden>
